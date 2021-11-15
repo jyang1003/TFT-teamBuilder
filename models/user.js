@@ -1,5 +1,5 @@
 'use strict';
-const bcrypt = require('bcrypt')
+const bcryptjs = require('bcryptjs')
 
 const {
   Model
@@ -26,6 +26,16 @@ module.exports = (sequelize, DataTypes) => {
         }
       }
     },
+    username: {
+      type: DataTypes.STRING,
+      allowNull: false,
+      validate: {
+        len: {
+          args: [4, 16],
+          msg: 'userame must be 4-16 characters long.'
+        }
+      }
+    },
     email: {
       type: DataTypes.STRING,
       allowNull: false,
@@ -46,14 +56,15 @@ module.exports = (sequelize, DataTypes) => {
           msg: 'Password must be between 8 and 99 characters.'
         }
       }
-    }
+    },
+    teamId: DataTypes.INTEGER
   }, {
     sequelize,
     modelName: 'user',
   });
 
   user.addHook('beforeCreate', async (pendingUser, options)=>{
-    await bcrypt.hash(pendingUser.password, 10)
+    await bcryptjs.hash(pendingUser.password, 10)
     .then(hashedPassword=>{
       console.log(`${pendingUser.password} became ---> ${hashedPassword}`)
       pendingUser.password = hashedPassword

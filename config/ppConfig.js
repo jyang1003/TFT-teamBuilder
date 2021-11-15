@@ -1,7 +1,7 @@
 const passport = require('passport')
 const db = require('../models')
 const LocalStrategy = require('passport-local')
-const bcrypt = require('bcrypt')
+const bcryptjs = require('bcryptjs')
 
 
 /*
@@ -68,7 +68,7 @@ const findAndLogInUser = (email, password, doneCallback) => {
     .then(async foundUser=>{
         let match
         if(foundUser){
-            match = await bcrypt.compare(password, foundUser.password)
+            match = await bcryptjs.compare(password, foundUser.password)
         }
         if (!foundUser || !match) { 
             return doneCallback(null, false)
