@@ -14,10 +14,10 @@ module.exports = (sequelize, DataTypes) => {
     }
   };
   champion.init({
-    name: DataTypes.STRING,
+    championName: DataTypes.STRING,
     origin: DataTypes.STRING,
     trait: DataTypes.STRING,
-    ability: DataTypes.STRING
+    championId: DataTypes.STRING
   }, {
     sequelize,
     modelName: 'champion',
