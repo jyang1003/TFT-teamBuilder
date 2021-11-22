@@ -2,11 +2,37 @@ const express = require('express')
 const router = express.Router()
 const db = require('../models')
 
-router.get('/:name', (req, res)=> {
-    db.champions.findOne({
-        where: { id: req.params.name }
+router.get('/:championName', (req, res)=> {
+
+    db.champion.findOne({
+        where: { championName: req.params.championName }
     })
-    res.render('champions', {champData: champion})
-})
+    .then(champs=> {
+        res.render('championData', {champs: champs})
+    })
+    .catch(error =>{
+        console.log(error)
+    })
 
 module.exports = router
+
+//team/:id
+// -team db by id
+//homepage
+//favorites
+//- favorites limit teamId, team has userId 
+//history 
+//history database limit by teamId, 
+//builder
+//display champs using champId, create team Id when done
+//championData/:id
+
+
+
+//DATABASE
+
+//champions: id
+//favorites: id, teamId
+//teams: id, userId
+//history: id, teamId
+//

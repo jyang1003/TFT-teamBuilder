@@ -7,7 +7,6 @@ const passport = require('./config/ppConfig')
 const flash = require('connect-flash')
 const isLoggedIn = require('./middleware/isLoggedIn')
 const bcryptjs = require('bcryptjs')
-
 // views (ejs and layouts) set up
 app.set('view engine', 'ejs')
 app.use(ejsLayouts)
@@ -39,6 +38,12 @@ app.use((req, res, next) => {
 
 // controllers middleware 
 app.use('/auth', require('./controllers/auth'))
+app.use('/teamBuilder', require('./controllers/teamBuilder'))
+app.use('/favorites', require('./controllers/favorites'))
+app.use('/teamHistory', require('./controllers/teamHistory'))
+app.use('/homePage', require('./controllers/homePage'))
+app.use('/championData', require('./controllers/championData'))
+
 
 
 // home route

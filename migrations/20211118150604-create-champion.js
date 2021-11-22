@@ -11,22 +11,24 @@ module.exports = {
       championName: {
         type: Sequelize.STRING
       },
-      origin: {
+      cost: {
         type: Sequelize.STRING
       },
-      trait: {
+      traitOne: {
         type: Sequelize.STRING
       },
       championId: {
         type: Sequelize.STRING
       },
-      createdAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+      traitTwo: {
+        type: Sequelize.STRING
       },
-      updatedAt: {
-        allowNull: false,
-        type: Sequelize.DATE
+      traitTwo: {
+        type: Sequelize.STRING
+      },
+      traitThree: {
+        allowNull: true,
+        type: Sequelize.STRING
       }
     });
   },
