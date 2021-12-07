@@ -8,12 +8,12 @@ router.get('/:championName', (req, res)=> {
         where: { championName: req.params.championName }
     })
     .then(champs=> {
-        res.render('championData', {champs: champs})
+        res.render('championData', {champ: champs})
     })
     .catch(error =>{
         console.log(error)
     })
-
+})
 module.exports = router
 
 //team/:id

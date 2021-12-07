@@ -41,7 +41,6 @@ app.use('/auth', require('./controllers/auth'))
 app.use('/teamBuilder', require('./controllers/teamBuilder'))
 app.use('/favorites', require('./controllers/favorites'))
 app.use('/teamHistory', require('./controllers/teamHistory'))
-app.use('/homePage', require('./controllers/homePage'))
 app.use('/championData', require('./controllers/championData'))
 
 
@@ -57,7 +56,7 @@ app.get('/profile', isLoggedIn, (req, res)=>{
 })
 
 
-app.listen(3000, ()=>{
+app.listen(process.env.PORT || 3000, ()=>{
     console.log("auth_practice running on port 3000")
     // console.log(process.env.SUPER_SECRET_SECRET)
 })

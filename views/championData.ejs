@@ -1,0 +1,9 @@
+<h1><%=champ.championName%></h1>
+<ul>
+        <li>Cost: <%= champ.cost%></li>
+        <li><%= champ.traitOne%></li>
+        <li><%= champ.traitTwo%></li>
+        <%if(champ.traitThree !== null){%>
+            <li><%= champ.traitThree%></li>
+        <%}%>
+</ul>

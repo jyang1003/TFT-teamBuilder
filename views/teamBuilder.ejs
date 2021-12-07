@@ -1,5 +1,14 @@
+<h1>Your Team:</h1>
+
+</ul>
+<h1>Champions:</h1>
 <ul>
     <% champs.forEach((champ)=> {%>
-        <li><a href="/championData/<%=champ.championName%>"><%= champ.championName%></a></li>
+        <li><a href="/championData/<%=champ.championName%>"><%= champ.championName%></a>
+            <form method="POST" action="/teamBuilder">
+                <input hidden type="text" name="name" value="<%= champ.championName %>">
+                <button type="submit">Add to Team</button>
+            </form></li>
     <%})%>
 </ul>
+
