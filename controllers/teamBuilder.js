@@ -5,22 +5,32 @@ const router = express.Router()
 const db = require('../models')
 const fs = require('fs')
 const champion = require('../models/champion')
+const teamChamps = require('../models/teamchamp')
+
 
 
 router.get('/', (req, res) => {
     db.champion.findAll()
         .then(champs => {
-            res.render('teamBuilder', { champs: champs })
+            let allChamps = champs
+            db.teamchamp.findAll(currentUser)
+            .then(newChamp => {
+                let teamChamp = newChamp
+                res.render('teamBuilder', {champs: allChamps, newChamp: teamChamp})
+            })
         })
         .catch(error => {
             console.log(error)
         })
 })
+
 router.post('/', (req, res) => {
+    console.log('req.body', req.body)
     db.teamchamp.create({
-        championName: db.champion.championName
+        championName: req.body.name
     })
         .then(newChamp => {
+            console.log('this is newChamp', newChamp)
             res.redirect(`/teamBuilder`)
         })
         .catch(error => {
@@ -28,3 +38,4 @@ router.post('/', (req, res) => {
         })
 });
 module.exports = router
+// {newChamp: newChamp}

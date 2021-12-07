@@ -11,7 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      
+      //models.fileName.belongsTo/hasMany(models.File)
+      models.champion
 
     }
   };

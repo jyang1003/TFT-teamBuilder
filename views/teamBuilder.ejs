@@ -1,4 +1,9 @@
 <h1>Your Team:</h1>
+<ul>
+    <% newChamp.forEach((newChamp) => {%>
+       <li><a href="/championData/<%=newChamp.championName%>"><%= newChamp.championName%></a></li>
+       <%})%>
+    </ul> 
 
 </ul>
 <h1>Champions:</h1>
@@ -7,7 +12,7 @@
         <li><a href="/championData/<%=champ.championName%>"><%= champ.championName%></a>
             <form method="POST" action="/teamBuilder">
                 <input hidden type="text" name="name" value="<%= champ.championName %>">
-                <button type="submit">Add to Team</button>
+                <button value="<%= champ.championName%>" type="submit">Add to Team</button>
             </form></li>
     <%})%>
 </ul>
