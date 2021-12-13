@@ -22,9 +22,9 @@ Click on champions to check out which traits they have and how much they cost. A
 ![History](readmePics/History_Wireframe.png)
 ### Favorites
 ![Favorites](readmePics/Favorites_Wireframe.png)
-### newTeam
+### New Team
 ![newTeam](readmePics/newTeam_Wireframe.png)
-### champData
+### Champion Data Screen
 ![champData](readmePics/champData_Wireframe.png)
 
 # ERD
