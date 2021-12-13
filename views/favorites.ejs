@@ -1,0 +1,8 @@
+<h1>Favorite Teams</h1>
+
+<ul>
+    <% favTeams.forEach((favorite) => {%>
+       <li><a href="/teamBuilder/<%=favorite.name%>"><%= favorite.name%></a></li>
+       <%})%>
+    </ul> 
+</ul>

@@ -1,0 +1,13 @@
+<h1>Team History</h1>
+
+<ul>
+    <% teams.forEach((team) => {%>
+       <li><a href="/teamBuilder/<%=team.name%>"><%= team.name%></a></li>
+       <form action="/favorites/add" method="POST">
+        <input hidden type="text" name="name" value="<%= team.name %>">
+        <input hidden type="text" name="id" value="<%= team.id %>">
+        <button value="<%= team.name%>" type="submit">Add to Favorite</button>
+    </form>
+       <%})%>
+    </ul> 
+</ul>

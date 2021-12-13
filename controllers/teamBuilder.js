@@ -1,5 +1,3 @@
-//routes to go to champ info
-//add button, route to redirect to same page after add
 const express = require('express')
 const router = express.Router()
 const db = require('../models')
@@ -16,9 +14,6 @@ router.get('/team', isLoggedIn, (req, res) => {
 })
 router.post('/newTeam', isLoggedIn, (req, res) => {
     console.log('req.user', req.user)
-    // db.users.findOne({
-    //     where: {}
-    // })
     db.team.create({
         name: req.body.name,
         userId: req.user.id
