@@ -11,8 +11,8 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
-      //models.fileName.belongsTo/hasMany(models.File)
-      models.champion
+      // models.fileName.belongsTo/hasMany(models.File)
+      models.champion.belongsToMany(models.team, {through: 'teamchamp', foreignKey: 'championName'})
 
     }
   };

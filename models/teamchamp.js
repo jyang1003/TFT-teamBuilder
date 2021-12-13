@@ -11,6 +11,9 @@ module.exports = (sequelize, DataTypes) => {
      */
     static associate(models) {
       // define association here
+      // models.teamchamp.Many(models.champion)
+      // models.teamchamp.hasMany(models.team)
+
     }
   };
   teamchamp.init({

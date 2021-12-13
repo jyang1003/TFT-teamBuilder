@@ -11,6 +11,7 @@ const bcryptjs = require('bcryptjs')
 app.set('view engine', 'ejs')
 app.use(ejsLayouts)
 
+
 // body parser middelware
 app.use(express.urlencoded({extended:false}))
 

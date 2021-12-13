@@ -1,19 +1,22 @@
-<h1>Your Team:</h1>
+<h1>Champions in <%= teamName%></h1>
 <ul>
-    <% newChamp.forEach((newChamp) => {%>
+    <% newChamps.forEach((newChamp) => {%>
        <li><a href="/championData/<%=newChamp.championName%>"><%= newChamp.championName%></a></li>
+       <form action="/teamBuilder/<%=teamName%>/delete" method="POST">
+        <input hidden type="text" name="name" value="<%= newChamp.championName %>">
+        <button value="<%= newChamp.championName%>" type="submit">Delete</button>
+    </form>
        <%})%>
     </ul> 
-
 </ul>
+
 <h1>Champions:</h1>
 <ul>
     <% champs.forEach((champ)=> {%>
         <li><a href="/championData/<%=champ.championName%>"><%= champ.championName%></a>
-            <form method="POST" action="/teamBuilder">
+            <form method="POST" action="/teamBuilder/<%=teamName%>/add">
                 <input hidden type="text" name="name" value="<%= champ.championName %>">
                 <button value="<%= champ.championName%>" type="submit">Add to Team</button>
             </form></li>
     <%})%>
 </ul>
-
