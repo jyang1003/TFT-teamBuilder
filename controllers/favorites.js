@@ -28,4 +28,17 @@ router.post('/add', isLoggedIn, (req, res) => {
     })
 })
 
+
+    router.post('/delete', isLoggedIn, (req, res) => {
+        db.team.update(
+            {favorite: false},
+            {where: {id: req.body.id,
+                    userId: req.user.id
+            }}
+        )
+        .then(addedFave => {
+            res.redirect(`/favorites`)
+        })
+    })
+
 module.exports = router

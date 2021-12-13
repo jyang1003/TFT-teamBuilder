@@ -3,6 +3,11 @@
 <ul>
     <% favTeams.forEach((favorite) => {%>
        <li><a href="/teamBuilder/<%=favorite.name%>"><%= favorite.name%></a></li>
+       <form action="/favorites/delete" method="POST">
+        <input hidden type="text" name="name" value="<%= favorite.name %>">
+        <input hidden type="text" name="id" value="<%= favorite.id %>">
+        <button value="<%= favorite.name%>" type="submit">Remove From Favorite</button>
+    </form>
        <%})%>
     </ul> 
 </ul>
