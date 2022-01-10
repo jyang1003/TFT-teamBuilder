@@ -17,8 +17,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Legionnaire",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Akshan",
@@ -27,8 +25,6 @@ module.exports = {
         "traitOne": "Sentinel",
         "traitTwo": "Ranger",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Aphelios",
@@ -37,8 +33,6 @@ module.exports = {
         "traitOne": "Nightbringer",
         "traitTwo": "Ranger",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Ashe",
@@ -47,8 +41,6 @@ module.exports = {
         "traitOne": "Draconic",
         "traitTwo": "Ranger",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Brand",
@@ -57,8 +49,6 @@ module.exports = {
         "traitOne": "Abomination",
         "traitTwo": "Spellweaver",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Diana",
@@ -67,8 +57,6 @@ module.exports = {
         "traitOne": "Nightbringer",
         "traitTwo": "Assassin",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Draven",
@@ -77,8 +65,6 @@ module.exports = {
         "traitOne": "Forgotten",
         "traitTwo": "Legionnaire",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Fiddlesticks",
@@ -87,8 +73,6 @@ module.exports = {
         "traitOne": "Abomination",
         "traitTwo": "Revenant",
         "traitThree": "Mystic",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Galio",
@@ -97,8 +81,6 @@ module.exports = {
         "traitOne": "Draconic",
         "traitTwo": "Sentinel",
         "traitThree": "Knight",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Garen",
@@ -107,8 +89,6 @@ module.exports = {
         "traitOne": "Victorious",
         "traitTwo": "Dawnbringer",
         "traitThree": "Knight",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Gragas",
@@ -117,8 +97,6 @@ module.exports = {
         "traitOne": "Dawnbringer",
         "traitTwo": "Brawler",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Gwen",
@@ -127,8 +105,6 @@ module.exports = {
         "traitOne": "Inanimate",
         "traitTwo": "Mystic",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Hecarim",
@@ -137,8 +113,6 @@ module.exports = {
         "traitOne": "Forgotten",
         "traitTwo": "Cavalier",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Heimerdinger",
@@ -147,8 +121,6 @@ module.exports = {
         "traitOne": "Draconic",
         "traitTwo": "Renewer",
         "traitThree": "Caretaker",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Ivern",
@@ -157,8 +129,6 @@ module.exports = {
         "traitOne": "Revenant",
         "traitTwo": "Invoker",
         "traitThree": "Renewer",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Irelia",
@@ -167,8 +137,6 @@ module.exports = {
         "traitOne": "Sentinel",
         "traitTwo": "Skirmisher",
         "traitThree": "Legionnaire",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Jax",
@@ -177,8 +145,6 @@ module.exports = {
         "traitOne": "Ironclad",
         "traitTwo": "Skirmisher",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Kalista",
@@ -187,8 +153,6 @@ module.exports = {
         "traitOne": "Abomination",
         "traitTwo": "Legionnaire",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Karma",
@@ -197,8 +161,6 @@ module.exports = {
         "traitOne": "Dawnbringer",
         "traitTwo": "Invoker",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Kayle",
@@ -207,8 +169,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Legionnaire",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Kennen",
@@ -217,8 +177,6 @@ module.exports = {
         "traitOne": "Hellion",
         "traitTwo": "Skirmisher",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Kha'Zix",
@@ -227,8 +185,6 @@ module.exports = {
         "traitOne": "Dawnbringer",
         "traitTwo": "Assassin",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Kled",
@@ -237,8 +193,6 @@ module.exports = {
         "traitOne": "Hellion",
         "traitTwo": "Cavalier",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Lee Sin",
@@ -247,8 +201,6 @@ module.exports = {
         "traitOne": "Nightbringer",
         "traitTwo": "Skirmisher",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Leona",
@@ -257,8 +209,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Knight",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Lucian",
@@ -267,8 +217,6 @@ module.exports = {
         "traitOne": "Sentinel",
         "traitTwo": "Cannoneer",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Lulu",
@@ -277,8 +225,6 @@ module.exports = {
         "traitOne": "Hellion",
         "traitTwo": "Mystic",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Lux",
@@ -287,8 +233,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Mystic",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Miss Fortune",
@@ -297,8 +241,6 @@ module.exports = {
         "traitOne": "Forgotten",
         "traitTwo": "Cannoneer",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Nautilus",
@@ -307,8 +249,6 @@ module.exports = {
         "traitOne": "Ironclad",
         "traitTwo": "Knight",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Nidalee",
@@ -317,8 +257,6 @@ module.exports = {
         "traitOne": "Dawnbringer",
         "traitTwo": "Skirmisher",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Nocturne",
@@ -327,8 +265,6 @@ module.exports = {
         "traitOne": "Revenant",
         "traitTwo": "Assassin",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Nunu",
@@ -337,8 +273,6 @@ module.exports = {
         "traitOne": "Abomination",
         "traitTwo": "Brawler",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Olaf",
@@ -347,8 +281,6 @@ module.exports = {
         "traitOne": "Sentinel",
         "traitTwo": "Skirmisher",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Poppy",
@@ -357,8 +289,6 @@ module.exports = {
         "traitOne": "Hellion",
         "traitTwo": "Knight",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Pyke",
@@ -367,8 +297,6 @@ module.exports = {
         "traitOne": "Sentinel",
         "traitTwo": "Assassin",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Rakan",
@@ -377,8 +305,6 @@ module.exports = {
         "traitOne": "Sentinel",
         "traitTwo": "Renewer",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Rell",
@@ -387,8 +313,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Ironclad",
         "traitThree": "Cavalier",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Riven",
@@ -397,8 +321,6 @@ module.exports = {
         "traitOne": "Dawnbringer",
         "traitTwo": "Legionnaire",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Sejuani",
@@ -407,8 +329,6 @@ module.exports = {
         "traitOne": "Brawler",
         "traitTwo": "Nightbringer",
         "traitThree": "Cavalier",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Senna",
@@ -417,8 +337,6 @@ module.exports = {
         "traitOne": "Sentinel",
         "traitTwo": "Cannoneer",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Sett",
@@ -427,8 +345,6 @@ module.exports = {
         "traitOne": "Draconic",
         "traitTwo": "Brawler",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Soraka",
@@ -437,8 +353,6 @@ module.exports = {
         "traitOne": "Renewer",
         "traitTwo": "Dawnbringer",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Syndra",
@@ -447,8 +361,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Invoker",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Teemo",
@@ -457,8 +369,6 @@ module.exports = {
         "traitOne": "Cruel",
         "traitTwo": "Hellion",
         "traitThree": "Invoker",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Thresh",
@@ -467,8 +377,6 @@ module.exports = {
         "traitOne": "Forgotten",
         "traitTwo": "Knight",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Tristana",
@@ -477,8 +385,6 @@ module.exports = {
         "traitOne": "Hellion",
         "traitTwo": "Cannoneer",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Udyr",
@@ -487,8 +393,6 @@ module.exports = {
         "traitOne": "Draconic",
         "traitTwo": "Skirmisher",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Varus",
@@ -497,8 +401,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Ranger",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Vayne",
@@ -507,8 +409,6 @@ module.exports = {
         "traitOne": "Forgotten",
         "traitTwo": "Ranger",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Vel'Koz",
@@ -517,8 +417,6 @@ module.exports = {
         "traitOne": "Redeemed",
         "traitTwo": "Spellweaver",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Viego",
@@ -527,8 +425,6 @@ module.exports = {
         "traitOne": "Forgotten",
         "traitTwo": "Skirmisher",
         "traitThree": "Assassin",
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Vladimir",
@@ -537,8 +433,6 @@ module.exports = {
         "traitOne": "Nightbringer",
         "traitTwo": "Renewer",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Volibear",
@@ -547,8 +441,6 @@ module.exports = {
         "traitOne": "Revenant",
         "traitTwo": "Brawler",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Yasuo",
@@ -557,8 +449,6 @@ module.exports = {
         "traitOne": "Nightbringer",
         "traitTwo": "Legionnaire",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Ziggs",
@@ -567,8 +457,6 @@ module.exports = {
         "traitOne": "Hellion",
         "traitTwo": "Spellweaver",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       },
       {
         "championName": "Zyra",
@@ -577,8 +465,6 @@ module.exports = {
         "traitOne": "Draconic",
         "traitTwo": "Spellweaver",
         "traitThree": null,
-        createdAt: new Date(),
-        updatedAt: new Date()
       }
     ])
   },
