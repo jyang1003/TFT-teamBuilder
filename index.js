@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:false}))
 
 // session middleware
 app.use(session({
-    secret: process.env.SECRET,
+    secret: process.env.SUPER_SECRET_SECRET,
     resave: false,
     saveUninitialized: true
 }))
