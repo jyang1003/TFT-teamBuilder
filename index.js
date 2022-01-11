@@ -17,7 +17,7 @@ app.use(express.urlencoded({extended:false}))
 
 // session middleware
 app.use(session({
-    secret: process.env.SUPER_SECRET_SECRET, //change for whatever you call api key
+    secret: 'lol', //change for whatever you call api key
     resave: false,
     saveUninitialized: true
 }))
